@@ -14,19 +14,12 @@
     "node": ">=14.x"
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-build-classic": "^29.2.0",
-    "@ckeditor/ckeditor5-react": "^3.0.2",
-    "@material-ui/core": "^4.12.3",
-    "@material-ui/icons": "^4.11.2",
-    "@material-ui/lab": "^4.0.0-alpha.60",
     "bcrypt": "^5.0.1",
     "js-cookie": "^3.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.7",
-    "multiselect-react-dropdown": "^2.0.5",
     "next": "^11.0.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-html-parser": "^2.0.2"
+    "react-dom": "17.0.2"
   }
 }
