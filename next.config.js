@@ -1,11 +1,12 @@
 const path = require("path");
 
 module.exports = {
+  webpack5: false,
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
   env: {
-    BASE_URL: "",
+    BASE_URL: "http://localhost:3000",
     MONGODB_URL:
       "mongodb+srv://vsard123:0918815218@cluster0.5pvah.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     ACCESS_TOKEN_SECRET: "mctgear1238494903795732933",
