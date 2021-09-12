@@ -3,10 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
-    "start": "next start -p $PORT",
-    "heroku-postbuild": "npm run build"
+    "start": "next start",
+    "analyze": "BUNDLE_ANALYZE=both yarn build"
+  },
+  "sideEffects": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.x"
   },
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^29.2.0",
